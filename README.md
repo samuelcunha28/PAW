@@ -1,1 +1,1 @@
-# PAW
+# Resolução de exercícios e trabalhos práticos para a disciplina de PAW
