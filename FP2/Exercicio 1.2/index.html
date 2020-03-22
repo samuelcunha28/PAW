@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Grupo</th>
+                <th>Nome</th>
+                <th>Contactos</th>
+                <th></th>
+                
+            </tr>
+            <!--- Para ser texto editável é necessário colocar contenteditable --->
+            <tr>
+                <th rowspan="2">Grupo 1</th>
+                <td contenteditable='true'>Elemento 1</td>
+                <td contenteditable='true'>900000010</td>
+                <td contenteditable='true'>220000001</td>
+            </tr>
+            <tr>
+                <td contenteditable='true'>Elemento 2</td>
+                <td colspan="2" contenteditable='true'>900000001</td>  
+            </tr>
+            <tr>
+                <th>Grupo 2</th>
+                <td contenteditable='true'>Elemento 3</td>
+                <td contenteditable='true'>900001001</td>
+                <td contenteditable='true'>900000101</td>
+            </tr>
+            <tr>
+                <th>Grupo 3</th>
+                <td colspan="3" style="text-align: center;">Sem dados</td>
+            </tr>
+        </table>
+    </body>
+</html>

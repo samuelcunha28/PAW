@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario ESTG</title>
+</head>
+<body>
+    <section id="questionario">
+    <img src="https://www.estg.ipp.pt/logo-ipp.png" alt="ESTG logo" id="logo">
+    <hr>
+    <form action="index.html" method="POST">
+        <h1>Questionário da ESTG!</h1>
+        <section class="dados">
+            <label for="nome">Qual é o seu nome?</label>
+            <input type="text" name="nome" id="nome">
+        </section>
+        <hr>
+
+        <section class="email">
+            <label for="email">Qual é o seu e-mail?</label>
+            <input type="text" name="email" id="email">
+        </section>
+        <hr>
+
+        <section class="numero">
+            <label for="numero">Qual é o seu número mecanográfico?</label>
+            <input type="number" name="numero" id="numero">
+        </section>
+        <hr>
+
+        <section class="idade">
+            <label for="idade">Indique a sua idade</label>
+            <input type="number" name="idade" id="idade">
+        </section>
+        <hr>
+       
+        <section class="meio_transporte">
+          <label for="transporte">Qual é o meio de transporte que usa?</label>
+          <select name="transporte" id="transporte">
+            <option value="carro">Carro</option>
+            <option value="autocarro">Autocarro</option>
+            <option value="pe">A pé</option>
+            <option value="mota">Mota</option>
+          </select>
+        </section>
+        <hr>
+        
+        <section class="classificacao_curso">
+          <label for="classificacao_curso">Em quanto classifica a qualidade do seu curso?</label>
+          <br>
+          <span>Mau</span>
+          <input type="range" name="classificacao_curso" id="classificacao_curso" value="5" min="1" max="10">
+          <span>Muito bom</span>
+        </section>
+        <hr>
+
+        <section class="classificacao_escola">
+            <label for="classificacao_escola">Em quanto classifica a ESTG?</label>
+            <br>
+            <span>Má</span>
+            <input type="range" name="classificacao_escola" id="classificacao_escola" value="5" min="1" max="10">
+            <span>Muito boa</span>
+          </section>
+          <hr>
+
+        <section class="importancia">
+            <span>Quais das opções que gostaria de ver na ESTG?</span>
+            <br>
+            <input type="checkbox" name="escola" id="interatividade" value="interatividade">
+            <label for="interatividade">Interatividade</label>
+            <input type="checkbox" name="escola" id="atividades_extracurriculares" value="atividades_extracurriculares">
+            <label for="atividades_extracurriculares">Atividades Extracurriculares</label>
+            <input type="checkbox" name="escola" id="remodelacao" value="remodelacao">
+            <label for="remodelacao">Remodelação da ESTG</label>
+        </section>
+        <hr>
+          
+        <section class="extra-info">
+            <label for="extra">Escreva em baixo mais opiniões sobre a ESTG</label>
+            <br>
+            <textarea id="extra" name="extra" rows="4" cols="40"></textarea>
+          </section>
+          <hr>
+    </form>
+    </section>
+    <br><br>
+    <input type="submit" value="Enviar" onclick="alert('O seu formulário foi submetido com sucesso!')">
+</body>
+</html>
