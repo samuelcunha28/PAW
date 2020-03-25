@@ -1,0 +1,23 @@
+@media(max-width: 1700px) {
+    h1 {
+        color: peru;
+    }
+}
+
+@media(max-width: 1300px) {
+    h1 {
+        color: maroon;
+    }
+}
+
+@media(max-height: 900px) {
+    h1 {
+        color:fuchsia;
+    }
+}
+
+@media(max-width: 700px) {
+    h1 {
+        color: black;
+    }
+}
