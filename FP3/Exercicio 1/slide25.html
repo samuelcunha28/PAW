@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>PAW Slide 25</title>
+    </head>
+    <body>
+        <h1>Título 1</h1>
+        <div id="div1">
+            <p id="p1">Paragrafo 1.</p>
+        </div>
+        <button onclick="addParagraph()">Add</button>
+
+        <script>
+            var counter = 2;
+
+            function addParagraph() {
+                var para = document.createElement("p");
+                var node = document.createTextNode("Paragrafo " + counter);
+                para.appendChild(node);
+
+                var element = document.getElementById("div1");
+                element.appendChild(para);
+                counter++;
+            }
+        </script>
+</body>
+</html>
