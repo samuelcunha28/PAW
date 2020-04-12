@@ -1,0 +1,71 @@
+body {
+    background-color: #EEEEEE;
+}
+
+.stationsform {
+    background-color: #FFF;
+    padding: 20px 20px 10px 20px;
+    margin-top: 30px;
+}
+
+.stationsform h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.stationform {
+    background-color: #FFF;
+    padding: 20px 20px 10px 20px;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.stationform h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#myTable {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+#myTable thead,
+#myTable tbody {
+    border: 1px solid black;
+}
+
+#myTable thead tr,
+#myTable thead td,
+#myTable thead th,
+#myTable tbody tr,
+#myTable tbody td,
+#myTable tbody th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#tableLimit {
+    padding-bottom: 10px;
+}
+
+.paw-form-element {
+    margin-top: 10px;
+}
+
+#myMap {
+    height: 512px;
+}
