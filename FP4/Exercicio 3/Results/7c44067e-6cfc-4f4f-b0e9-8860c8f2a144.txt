@@ -1,0 +1,7 @@
+{"name":"Samuel",
+"age":"21",
+"postcode":4620-784,
+"foodQuality":"9",
+"price":"10",
+"serviceQuality":"8",
+"place":"7"}

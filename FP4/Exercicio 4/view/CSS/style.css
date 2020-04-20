@@ -1,0 +1,22 @@
+html, body {
+  margin: 0px;
+}
+
+#upload {
+  margin: 10px;
+}
+
+#upload > * {
+  display: block;
+  margin-top: 5px;
+}
+
+#download {
+  margin: 10px;
+}
+
+#download > * {
+  display: block;
+  margin-top: 5px;
+}
+/*# sourceMappingURL=style.css.map */

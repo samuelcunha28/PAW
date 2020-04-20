@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>EX4</title>
+</head>
+
+<body>
+
+    <form id="upload" method="POST" action="/upload" encType="multipart/form-data">
+        <label for="infile">Introduza o ficheiro</label>
+        <input id="infile" name="file" type="file"></input>
+        <button id="uploadButton">Upload</button>
+    </form>
+
+    <form id="download" method="GET" action="/download" encType="multipart/form-data">
+        <label for="Dfile">Introduza o nome ficheiro</label>
+        <input id="Dfile" name="Dfile" type="text"></input>
+        <button id="downloadButton">Download</button>
+    </form>
+
+</body>
+
+</html>
