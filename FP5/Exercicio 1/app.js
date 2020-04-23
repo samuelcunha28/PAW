@@ -1,20 +1,19 @@
-const express = require('express');
+const express = require('express')
 
 const PORT = process.env.PORT || 3000;
 const app = express();
-
-const quizRouter = require('./routes/quiz');
-const filterRouter = require('./routes/filters');
+const indexRouter = require("./routes/index");
+const historicReviewsRouter = require("./routes/historicReviews");
 
 app
 
-    .use(express.static('public'))
-
-.use(express.json())
+    .use(express.json())
     .use(express.urlencoded({ extended: true }))
     .set('view engine', 'ejs')
-    .use('/', quizRouter)
-    .use('/', filterRouter)
-    .listen(PORT, () => {
-        console.log(`server started on http://localhost:${PORT}`)
-    });
+    .use('/', indexRouter)
+    .use(express.static('public'))
+    .use('/review', historicReviewsRouter)
+
+.listen(PORT, () => {
+    console.log("Servidor a correr em: http://localhost:3000")
+})

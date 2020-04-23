@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+body h1 {
+    text-align: left;
+    margin-left: 20px;
+    color: #000000;
+}
+
+body h3 {
+    text-align: left;
+    margin-left: 20px;
+    color: #7B7B7B;
+}
+
+body p {
+    text-align: left;
+    margin-left: 20px;
+}
+
+body .question {
+    text-align: left;
+    margin-left: 20px;
+}
+
+body #read,
+body #button {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+/*# sourceMappingURL=style.css.map */
