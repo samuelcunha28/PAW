@@ -1,9 +1,10 @@
 var mongoose = require('mongoose');
 
 var EmployeeSchema = new mongoose.Schema({
-  
-  // TODO
-
+  name: String,
+  address: String,
+  position: String,
+  salary: Number,
   updated_at: { type: Date, default: Date.now },
 });
 
