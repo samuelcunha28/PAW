@@ -10,7 +10,7 @@ mongoose.Promise = global.Promise;
 
 // If using MongoAtlas uncomment the next line and complete the link with your cluster
 //mongoose.connect('mongodb+srv://YOUR_MONGO_ATLAS_LINK', { useNewUrlParser: true })
-mongoose.connect('mongodb://localhost/test', { useNewUrlParser: true })
+mongoose.connect('mongodb+srv://samuel:123@cluster0-jyzzu.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true })
     .then(() => console.log('connection succesful'))
     .catch((err) => console.error(err));
 
